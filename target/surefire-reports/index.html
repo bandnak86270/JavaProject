@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OrangeHRMSuite" class="navigator-link">
+              <span class="suite-name border-passed">OrangeHRMSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OrangeHRMSuite" class="navigator-link ">
+                    <span>C:\eclipse\OrngeHRM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OrangeHRMSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OrangeHRMSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OrangeHRMSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OrangeHRMSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OrangeHRMSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OrangeHRMSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrangeHRMSuite" class="hide-methods passed suite-OrangeHRMSuite"> (hide)</a> <!-- hide-methods passed suite-OrangeHRMSuite -->
+                      <a href="#" panel-name="suite-OrangeHRMSuite" class="show-methods passed suite-OrangeHRMSuite"> (show)</a> <!-- show-methods passed suite-OrangeHRMSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-OrangeHRMSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PersonalDetailsTest" class="method navigator-link" hash-for-method="DeleteAttachment">DeleteAttachment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PersonalDetailsTest" class="method navigator-link" hash-for-method="DownloadAttachment">DownloadAttachment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PersonalDetailsTest" class="method navigator-link" hash-for-method="PersonalDetailFieldsAreEditable">PersonalDetailFieldsAreEditable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PersonalDetailsTest" class="method navigator-link" hash-for-method="UploadAttachment">UploadAttachment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.LogoutTest" class="method navigator-link" hash-for-method="logoutfromApplication">logoutfromApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithInvalidPassword">testLoginWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithInvalidUserName">testLoginWithInvalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PhotographTest" class="method navigator-link" hash-for-method="testProfilePicturePersistsAfterRelogin">testProfilePicturePersistsAfterRelogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PhotographTest" class="method navigator-link" hash-for-method="testProfilePictureUpload">testProfilePictureUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PhotographTest" class="method navigator-link" hash-for-method="testProfilePictureUploadWithExceededSize">testProfilePictureUploadWithExceededSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.PhotographTest" class="method navigator-link" hash-for-method="testProfilePictureUploadWithUnsupportedFormat">testProfilePictureUploadWithUnsupportedFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="testloginWithInvalidCredentials">testloginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="testloginWithValidCredentials">testloginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="Tests.LogoutTest" class="method navigator-link" hash-for-method="verifyLogoutButtonVisibility">verifyLogoutButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrangeHRMSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRMSuite" class="panel OrangeHRMSuite">
+          <div class="suite-OrangeHRMSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidPassword">
+                  </a> <!-- testLoginWithInvalidPassword -->
+                  <span class="method-name">testLoginWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidUserName">
+                  </a> <!-- testLoginWithInvalidUserName -->
+                  <span class="method-name">testLoginWithInvalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testloginWithInvalidCredentials">
+                  </a> <!-- testloginWithInvalidCredentials -->
+                  <span class="method-name">testloginWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testloginWithValidCredentials">
+                  </a> <!-- testloginWithValidCredentials -->
+                  <span class="method-name">testloginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuite-class-passed -->
+          <div class="suite-OrangeHRMSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.PhotographTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfilePicturePersistsAfterRelogin">
+                  </a> <!-- testProfilePicturePersistsAfterRelogin -->
+                  <span class="method-name">testProfilePicturePersistsAfterRelogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfilePictureUpload">
+                  </a> <!-- testProfilePictureUpload -->
+                  <span class="method-name">testProfilePictureUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfilePictureUploadWithExceededSize">
+                  </a> <!-- testProfilePictureUploadWithExceededSize -->
+                  <span class="method-name">testProfilePictureUploadWithExceededSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfilePictureUploadWithUnsupportedFormat">
+                  </a> <!-- testProfilePictureUploadWithUnsupportedFormat -->
+                  <span class="method-name">testProfilePictureUploadWithUnsupportedFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuite-class-passed -->
+          <div class="suite-OrangeHRMSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutfromApplication">
+                  </a> <!-- logoutfromApplication -->
+                  <span class="method-name">logoutfromApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutButtonVisibility">
+                  </a> <!-- verifyLogoutButtonVisibility -->
+                  <span class="method-name">verifyLogoutButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuite-class-passed -->
+          <div class="suite-OrangeHRMSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.PersonalDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteAttachment">
+                  </a> <!-- DeleteAttachment -->
+                  <span class="method-name">DeleteAttachment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadAttachment">
+                  </a> <!-- DownloadAttachment -->
+                  <span class="method-name">DownloadAttachment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PersonalDetailFieldsAreEditable">
+                  </a> <!-- PersonalDetailFieldsAreEditable -->
+                  <span class="method-name">PersonalDetailFieldsAreEditable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadAttachment">
+                  </a> <!-- UploadAttachment -->
+                  <span class="method-name">UploadAttachment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuite-class-passed -->
+        </div> <!-- panel OrangeHRMSuite -->
+        <div panel-name="test-xml-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse\OrngeHRM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRMSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;Tests.PersonalDetailsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;UpdatePersonalDetails&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Tests.PersonalDetailsTest --&gt;
+      &lt;class name=&quot;Tests.PhotographTest&quot;/&gt;
+      &lt;class name=&quot;Tests.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRMSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRMSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRMSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRMSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRMSuite');
+function tableData_OrangeHRMSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UploadAttachment')
+data.setCell(0, 2, 'Tests.PersonalDetailsTest')
+data.setCell(0, 3, 37889);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testProfilePictureUpload')
+data.setCell(1, 2, 'Tests.PhotographTest')
+data.setCell(1, 3, 23348);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testProfilePictureUploadWithExceededSize')
+data.setCell(2, 2, 'Tests.PhotographTest')
+data.setCell(2, 3, 19253);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testProfilePicturePersistsAfterRelogin')
+data.setCell(3, 2, 'Tests.PhotographTest')
+data.setCell(3, 3, 17382);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testProfilePictureUploadWithUnsupportedFormat')
+data.setCell(4, 2, 'Tests.PhotographTest')
+data.setCell(4, 3, 16949);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DeleteAttachment')
+data.setCell(5, 2, 'Tests.PersonalDetailsTest')
+data.setCell(5, 3, 10157);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testloginWithInvalidCredentials')
+data.setCell(6, 2, 'Tests.LoginTest')
+data.setCell(6, 3, 9049);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PersonalDetailFieldsAreEditable')
+data.setCell(7, 2, 'Tests.PersonalDetailsTest')
+data.setCell(7, 3, 8497);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logoutfromApplication')
+data.setCell(8, 2, 'Tests.LogoutTest')
+data.setCell(8, 3, 7136);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DownloadAttachment')
+data.setCell(9, 2, 'Tests.PersonalDetailsTest')
+data.setCell(9, 3, 6245);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginWithInvalidPassword')
+data.setCell(10, 2, 'Tests.LoginTest')
+data.setCell(10, 3, 5368);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testloginWithValidCredentials')
+data.setCell(11, 2, 'Tests.LoginTest')
+data.setCell(11, 3, 5183);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginWithInvalidUserName')
+data.setCell(12, 2, 'Tests.LoginTest')
+data.setCell(12, 3, 4797);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLogoutButtonVisibility')
+data.setCell(13, 2, 'Tests.LogoutTest')
+data.setCell(13, 3, 241);
+window.suiteTableData['OrangeHRMSuite']= { tableData: data, tableDiv: 'times-div-OrangeHRMSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-OrangeHRMSuite">
+              </div> <!-- times-div-OrangeHRMSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRMSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.PersonalDetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">UpdatePersonalDetails</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRMSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">intialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testloginWithInvalidCredentials</span>
+                <span class="method-start">24569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidPassword</span>
+                <span class="method-start">33632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidUserName</span>
+                <span class="method-start">39002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testloginWithValidCredentials</span>
+                <span class="method-start">43800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">48986 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.PersonalDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">intialization</span>
+                <span class="method-start">49708 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">58754 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">PersonalDetailFieldsAreEditable</span>
+                <span class="method-start">65160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UploadAttachment</span>
+                <span class="method-start">73660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DownloadAttachment</span>
+                <span class="method-start">111550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteAttachment</span>
+                <span class="method-start">117796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">127955 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.PhotographTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">intialization</span>
+                <span class="method-start">128414 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">135551 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testProfilePictureUploadWithUnsupportedFormat</span>
+                <span class="method-start">141741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProfilePictureUploadWithExceededSize</span>
+                <span class="method-start">158691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProfilePictureUpload</span>
+                <span class="method-start">177945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProfilePicturePersistsAfterRelogin</span>
+                <span class="method-start">201294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">218677 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">intialization</span>
+                <span class="method-start">219257 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">225055 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutButtonVisibility</span>
+                <span class="method-start">231118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutfromApplication</span>
+                <span class="method-start">231360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">238496 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
